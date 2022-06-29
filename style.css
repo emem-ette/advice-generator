@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  height: 100%;
+}
+#container-parent {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+  position: relative;
+}
+#advice {
+  color: hsl(150, 100%, 66%);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  text-align: center;
+  padding: 20px 15px 20px 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+  border: 5px solid hsl(217, 19%, 24%);
+  background-color: hsl(217, 19%, 24%);
+  width: 60vw;
+}
+button {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: hsl(150, 100%, 66%);
+  padding: 8px 15px 8px 15px;
+  outline-color: hsl(150, 100%, 66%);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: hsl(218, 23%, 16%);
+    overflow: hidden;
+    height: 100%;
+  }
+  #container-parent {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    position: relative;
+  }
+  #advice {
+    color: hsl(150, 100%, 66%);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #container {
+    text-align: center;
+    padding: 80px 15px 80px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif;
+    border: 5px solid hsl(217, 19%, 24%);
+    background-color: hsl(217, 19%, 24%);
+    width: 60vw;
+  }
+  button {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: hsl(150, 100%, 66%);
+    padding: 8px 15px 8px 15px;
+    outline-color: hsl(150, 100%, 66%);
+  }
+  .btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
